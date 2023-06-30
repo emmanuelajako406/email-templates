@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <span class="navbar-text">
+      <i class="ri-mail-send-line"></i>
+    </span>
+  </nav>
+  <div class="hero-section">
+    <div class="hero-text">
+      <h1>
+        HTML Email Templates & Signatures
+      </h1>
+      <p style="font-size: 22px; font-style: italic;">
+        Elevate Your Email Presence with HTML Email & Signatures Excellence!
+      </p>
+    </div>
+  </div>
+
+  <div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'templates')">HTML Email Templates</button>
+    <button class="tablinks" onclick="openTab(event, 'signature')">HTML Email Signature</button>
+  </div>
+
+  <div id="templates" class="tabcontent" style="display: block;">
+    <div class="grid-container">
+        <div class="card">
+          <img src="images/Template/1.png" alt="Image 1">
+          <div class="card-content">
+            <p class="card-text">HTML Email Template</p>
+            <a href="./Email Templates/Email-Template-1.html" target="_blank">
+           <i class="ri-arrow-right-line card-icon"></i>
+          </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/Template/2.png" alt="Image 2">
+          <div class="card-content">
+            <p class="card-text">HTML Email Template</p>
+            <a href="./Email Templates/Email-Template-2.html" target="_blank">
+           <i class="ri-arrow-right-line card-icon"></i>
+          </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/Template/3.png" alt="Image 3">
+          <div class="card-content">
+            <p class="card-text">HTML Email Template</p>
+            <a href="./Email Templates/Email-Template-3.html" target="_blank">
+           <i class="ri-arrow-right-line card-icon"></i>
+          </a>
+          </div>
+        </div>
+
+        <div class="card">
+            <img src="images/Template/4.png" alt="Image 4">
+            <div class="card-content">
+              <p class="card-text">HTML Email Template</p>
+              <a href="./Email Templates/Email-Template-4.html" target="_blank">
+           <i class="ri-arrow-right-line card-icon"></i>
+          </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/Template/5.png" alt="Image 5">
+            <div class="card-content">
+              <p class="card-text">HTML Email Template</p>
+              <a href="./Email Templates/Email-Template-5.html" target="_blank">
+           <i class="ri-arrow-right-line card-icon"></i>
+          </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/Template/6.png" alt="Image 6">
+            <div class="card-content">
+              <p class="card-text">HTML Email Template</p>
+              <a href="./Email Templates/Email-Template-6.html" target="_blank">
+           <i class="ri-arrow-right-line card-icon"></i>
+          </a>
+            </div>
+          </div>
+     
+      </div>
+  </div>
+
+  <div id="signature" class="tabcontent">
+    <div class="grid-container">
+        <div class="card">
+          <img src="images/Signature/1.png" alt="Image 1">
+          <div class="card-content">
+            <p class="card-text">HTML Email Signature</p>
+            <a href="./Email Signatures/signature-1.html" target="_blank">
+           <i class="ri-arrow-right-line card-icon"></i>
+          </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/Signature/2.png" alt="Image 2">
+          <div class="card-content">
+            <p class="card-text">HTML Email Signature</p>
+            <a href="./Email Signatures/signature-2.html" target="_blank">
+           <i class="ri-arrow-right-line card-icon"></i>
+          </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/Signature/3.png" alt="Image 3">
+          <div class="card-content">
+            <p class="card-text">HTML Email Signature</p>
+            <a href="./Email Signatures/signature-3.html" target="_blank">
+           <i class="ri-arrow-right-line card-icon"></i>
+          </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/Signature/4.png" alt="Image 4">
+          <div class="card-content">
+            <p class="card-text">HTML Email Signature</p>
+            <a href="./Email Signatures/signature-4.html" target="_blank">
+           <i class="ri-arrow-right-line card-icon"></i>
+          </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/Signature/5.png" alt="Image 3">
+          <div class="card-content">
+            <p class="card-text">HTML Email Signature </p>
+            <a href="./Email Signatures/signature-5.html" target="_blank">
+           <i class="ri-arrow-right-line card-icon"></i>
+          </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/Signature/6.png" alt="Image 3">
+          <div class="card-content">
+            <p class="card-text">HTML Email Signature</p>
+            <a href="./Email Signatures/signature-6.html" target="_blank">
+           <i class="ri-arrow-right-line card-icon"></i>
+          </a>
+          </div>
+        </div>
+     
+      </div>
+  </div>
+  </div>
+</body>
+<script>
+    // Set the default active tab on page load
+    document.getElementsByClassName("tablinks")[0].click();
+
+    function openTab(evt, tabName) {
+      var i, tabcontent, tablinks;
+
+      // Hide all tab content
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      // Remove the "active" class from all tab buttons
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      // Show the selected tab content
+      document.getElementById(tabName).style.display = "block";
+
+      // Add the "active" class to the clicked tab button
+      evt.currentTarget.className += " active";
+    }
+  </script>
+</html>
